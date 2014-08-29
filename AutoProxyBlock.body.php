@@ -53,13 +53,13 @@ class AutoProxyBlock {
 	}
  
 	function checkProxy( $title, $user, $action, &$result ) {
-		global $wgProxyCanPerform, $wgAutoProxyBlockLog;
+		global $wgProxyCanPerform, $wgAutoProxyBlockLog, $wgRequest;
 		
 		if( in_array( $action, $wgProxyCanPerform ) || $user->isAllowed('proxyunbannable') ) {
 			return true;
 		}
 		
-		$userIP = wfGetIP();
+		$userIP = $wgRequest->getIP();
 		if( self::isProxy( $userIP ) ) {
 			if( $wgAutoProxyBlockLog ) {
 				$log = new LogPage( 'proxyblock' );
@@ -84,7 +84,8 @@ class AutoProxyBlock {
 	}
  
 	function AFSetVar( &$vars, $title ) {
-		$vars->setVar( 'is_proxy', self::isProxy( wfGetIP() ) ? 1 : 0 );
+		global $wgRequest;
+		$vars->setVar( 'is_proxy', self::isProxy( $wgRequest->getIP() ) ? 1 : 0 );
 		return true;
 	}
  
@@ -94,9 +95,9 @@ class AutoProxyBlock {
 	}
  
 	function tagProxyChange( $recentChange ) {
-		global $wgTagProxyActions, $wgUser;
+		global $wgTagProxyActions, $wgUser, $wgRequest;
 		
-		if ( $wgTagProxyActions && self::isProxy( wfGetIP() ) && !$wgUser->isAllowed( 'notagproxychanges' ) ) {
+		if ( $wgTagProxyActions && self::isProxy( $wgRequest->getIP() ) && !$wgUser->isAllowed( 'notagproxychanges' ) ) {
 			ChangeTags::addTags( 
 				'proxy',
 				$recentChange->mAttribs['rc_id'],
