@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Great11"
+		]
+	},
+	"proxy-blocked": "Votre adresse IP est répertoriée en tant que proxy, a effectué l'action annulée.",
+	"abusefilter-edit-builder-vars-is-proxy": "Vrai si cette action a été réalisée par le biais d'un proxy",
+	"tag-proxy": "l'action par l'intermédiaire de proxy",
+	"proxyblock-log-name": "De proxy automatique bloc journal"
+}

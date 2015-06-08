@@ -1,12 +1,14 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Metalhead64"
+		]
 	},
 	"autoproxyblock-desc": "{{desc|name=AutoProxyBlock|url=https://www.mediawiki.org/wiki/Extension:AutoProxyBlock}}",
 	"proxy-blocked": "This message refers to the ip your using is listed as a proxy.",
 	"abusefilter-edit-builder-vars-is-proxy": "This message refers to true if this action was performed through a proxy",
 	"tag-proxy": "This message refers to action through proxy",
-	"right-notagproxychanges": "This messafe refers to protect from tagging edits through proxies as \"proxy\"",
+	"right-notagproxychanges": "This message refers to protect from tagging edits through proxies as \"proxy\"",
 	"right-autoproxyblock-log": "This message refers to view log of automatically blocked changes through proxies",
 	"proxyblock-log-name": "This message refers to auto proxy block log",
 	"proxyblock-log-header": "This message refers to list of automatically blocked changes through proxies",
