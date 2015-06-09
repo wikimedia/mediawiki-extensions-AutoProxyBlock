@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"proxyblock-logentry-blocked": "działanie „$2” wykonane przez użytkownika $3 na stronie [[$1]] zostało automatycznie zablokowane."
+}

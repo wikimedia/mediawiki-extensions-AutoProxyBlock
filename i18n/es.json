@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"abusefilter-edit-builder-vars-is-proxy": "Verdadero si esta acción se realizó mediante un proxy",
+	"tag-proxy": "acción mediante un proxy",
+	"right-autoproxyblock-log": "ver el registro de cambios mediante proxys, bloqueados automáticamente",
+	"proxyblock-log-header": "Lista de cambios mediante proxys, bloqueados automáticamente",
+	"proxyblock-logentry-blocked": "la acción \"$2\" del usuario $3 en la página [[$1]] se bloqueó automáticamente."
+}

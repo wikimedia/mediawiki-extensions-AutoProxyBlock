@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"autoproxyblock-desc": "Permite bloquear proxies abertos para realizar accións na wiki",
+	"proxy-blocked": "A súa dirección IP está listada coma un proxy, abortada a acción realizada.",
+	"abusefilter-edit-builder-vars-is-proxy": "Verdadeiro se esta acción realizouse mediante un proxy",
+	"tag-proxy": "acción mediante un proxy",
+	"right-notagproxychanges": "protexer de etiquetar as edicións a través de proxies como \"proxy\"",
+	"right-autoproxyblock-log": "ver o rexistro de cambios realizados a través de proxys que foron bloqueados automaticamente",
+	"proxyblock-log-name": "Rexistro de bloqueo automático de proxies",
+	"proxyblock-log-header": "Lista de cambios mediante proxys, bloqueados automaticamente",
+	"proxyblock-logentry-blocked": "a acción \"$2\" do usuario $3 na páxina [[$1]] bloqueouse automaticamente."
+}
