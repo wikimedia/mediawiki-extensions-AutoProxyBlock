@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Siebrand"
 		]
 	},
-	"autoproxyblock-desc": "Staat het automatisch blokkeren van acties via open proxy's op deze wiki toe",
-	"tag-proxy": "actie via proxy",
+	"autoproxyblock-desc": "Staat het automatisch blokkeren van handelingen via open proxy's op deze wiki toe",
+	"tag-proxy": "handeling via proxy",
 	"proxyblock-log-name": "Logboek met automatische proxyblokkades",
-	"proxyblock-log-header": "Lijst van automatisch geblokkeerde bewerkingen via proxy's"
+	"proxyblock-log-header": "Lijst van automatisch geblokkeerde wijzigingen via proxy's"
 }
