@@ -4,5 +4,6 @@
 			"Alexmar983"
 		]
 	},
-	"tag-proxy": "azione tramite un proxy"
+	"tag-proxy": "azione tramite un proxy",
+	"proxyblock-logentry-blocked": "Azione \"$2\" eseguita dall'utente $3 sulla pagina [[$1]] bloccata automaticamente."
 }
