@@ -2,16 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Great11",
-			"TomT0m"
+			"TomT0m",
+			"Orlodrim",
+			"Wladek92"
 		]
 	},
-	"autoproxyblock-desc": "Permet de bloquer les action effectuées au travers de proxy ouverts sur le wiki",
+	"autoproxyblock-desc": "Permet de bloquer les actions effectuées au travers de proxy ouverts sur le wiki",
 	"proxy-blocked": "Votre adresse IP est répertoriée en tant que proxy, a effectué l'action annulée.",
 	"abusefilter-edit-builder-vars-is-proxy": "Vrai si cette action a été réalisée par le biais d'un proxy",
 	"tag-proxy": "l'action par l'intermédiaire de proxy",
-	"right-notagproxychanges": "ne pas mettre d'étiquette \"proxy\" pour les modifications par proxy",
-	"right-autoproxyblock-log": "voir les journaux sur le blocage automatique des modifications par proxy",
+	"right-notagproxychanges": "empêcher de mettre l'étiquette \"proxy\" sur des  modifications faites via les proxy",
+	"right-autoproxyblock-log": "voir les journaux des blocages automatiques des modifications par les proxys",
 	"proxyblock-log-name": "De proxy automatique bloc journal",
-	"proxyblock-log-header": "liste des modification par proxy bloquées automatiquement",
+	"proxyblock-log-header": "liste des modifications par proxy bloquées automatiquement",
 	"proxyblock-logentry-blocked": "action «$2» par $3 sur la page [[$1]] bloquée automatiquement."
 }
