@@ -15,5 +15,5 @@
 	"right-autoproxyblock-log": "voir les journaux des blocages automatiques des modifications par les proxys",
 	"proxyblock-log-name": "De proxy automatique bloc journal",
 	"proxyblock-log-header": "liste des modifications par proxy bloquées automatiquement",
-	"proxyblock-logentry-blocked": "action «$2» par $3 sur la page [[$1]] bloquée automatiquement."
+	"proxyblock-logentry-blocked": "action «$2» par l'utilisateur $3 sur la page [[$1]] bloquée automatiquement."
 }
