@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772"
+		]
+	},
+	"autoproxyblock-desc": "위키에서 공개 프록시가 동작을 수행하지 못하도록 차단할 수 있도록 합니다",
+	"proxy-blocked": "당신의 IP 주소는 프록시로 등록되어 있으며, 수행하던 작업이 중단되었습니다.",
+	"abusefilter-edit-builder-vars-is-proxy": "프록시를 통한 동작일 경우 참값을 반환합니다",
+	"tag-proxy": "프록시를 통한 동작",
+	"right-notagproxychanges": "프록시를 통한 편집을 \"프록시\"로 태그하지 않도록 방지",
+	"right-autoproxyblock-log": "자동으로 차단된 프록시를 통한 편집의 기록을 확인",
+	"proxyblock-log-name": "자동 프록시 차단 기록",
+	"proxyblock-log-header": "자동으로 차단된 프록시를 통한 편집의 목록입니다.",
+	"proxyblock-logentry-blocked": "문서 [[$1]]에서의 $3 사용자의 동작 \"$2\"가 자동으로 차단되었습니다."
+}
