@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player"
+		]
+	},
+	"autoproxyblock-desc": "オープンプロキシによるWiki内での操作の実行をブロックできるようにする。",
+	"tag-proxy": "プロキシ経由の操作",
+	"right-notagproxychanges": "プロキシ経由での編集でも「proxy」タグを付与されない",
+	"right-autoproxyblock-log": "プロキシ経由の自動ブロックされた変更の記録を閲覧する",
+	"proxyblock-log-name": "自動プロキシブロック記録",
+	"proxyblock-log-header": "プロキシ経由の自動ブロックされた変更の一覧",
+	"proxyblock-logentry-blocked": "利用者 $3 による ページ [[$1]] への操作 \"$2\"は自動的にブロックされました。"
+}
