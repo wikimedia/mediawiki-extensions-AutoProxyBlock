@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Umherirrender"
 		]
 	},
 	"autoproxyblock-desc": "{{desc|name=AutoProxyBlock|url=https://www.mediawiki.org/wiki/Extension:AutoProxyBlock}}",
@@ -12,5 +13,6 @@
 	"right-autoproxyblock-log": "This message refers to view log of automatically blocked changes through proxies",
 	"proxyblock-log-name": "This message refers to auto proxy block log",
 	"proxyblock-log-header": "This message refers to list of automatically blocked changes through proxies",
+	"proxyblock-logentry": "{{ignored}}\nMessage for log action \"proxyblock/proxyblock\"",
 	"proxyblock-logentry-blocked": "This message refers to action \"$2\" by user $3 on page [[$1]] automatically blocked."
 }
