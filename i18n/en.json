@@ -6,6 +6,7 @@
 	"proxy-blocked": "Your IP address is listed as proxy, performed action aborted.",
 	"abusefilter-edit-builder-vars-is-proxy": "True if this action was performed through a proxy",
 	"tag-proxy": "action through proxy",
+	"right-proxyunbannable": "Bypass automatic blocks of proxies",
 	"right-notagproxychanges": "protect from tagging edits through proxies as \"proxy\"",
 	"right-autoproxyblock-log": "view log of automatically blocked changes through proxies",
 	"proxyblock-log-name": "Auto proxy block log",
