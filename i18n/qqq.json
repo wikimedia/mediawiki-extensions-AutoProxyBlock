@@ -6,13 +6,13 @@
 		]
 	},
 	"autoproxyblock-desc": "{{desc|name=AutoProxyBlock|url=https://www.mediawiki.org/wiki/Extension:AutoProxyBlock}}",
-	"proxy-blocked": "This message refers to the ip your using is listed as a proxy.",
+	"proxy-blocked": "This message refers to the IP you are using listed as a proxy.",
 	"abusefilter-edit-builder-vars-is-proxy": "This message refers to true if this action was performed through a proxy",
 	"tag-proxy": "This message refers to action through proxy",
 	"right-proxyunbannable": "{{doc-right|proxyunbannable}}",
 	"right-notagproxychanges": "This message refers to protect from tagging edits through proxies as \"proxy\"\n\n{{doc-right|notagproxychanges}}",
 	"right-autoproxyblock-log": "This message refers to view log of automatically blocked changes through proxies\n\n{{doc-right|autoproxyblock-log}}",
-	"proxyblock-log-name": "This message refers to auto proxy block log",
+	"proxyblock-log-name": "This message refers to AutoProxyBlock extension's log which contains everything that the extension does.",
 	"proxyblock-log-header": "This message refers to list of automatically blocked changes through proxies",
 	"proxyblock-logentry": "{{ignored}}\nMessage for log action \"proxyblock/proxyblock\"",
 	"proxyblock-logentry-blocked": "This message refers to action \"$2\" by user $3 on page [[$1]] automatically blocked."
