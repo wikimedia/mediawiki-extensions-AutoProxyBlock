@@ -1,14 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Kroji"
 		]
 	},
-	"proxy-blocked": "Tu dirección IP está listada como proxy. Se cancela la acción realizada.",
+	"proxy-blocked": "{{GENDER:|Tu}} dirección IP está listada como proxy. Se cancela la acción realizada.",
 	"abusefilter-edit-builder-vars-is-proxy": "Verdadero si esta acción se realizó mediante un proxy",
 	"tag-proxy": "acción mediante un proxy",
+	"right-proxyunbannable": "Quedar exento de bloqueos automáticos a proxies",
 	"right-autoproxyblock-log": "ver el registro de cambios mediante proxys, bloqueados automáticamente",
 	"proxyblock-log-name": "Registro de bloqueo automático de proxys",
 	"proxyblock-log-header": "Lista de cambios mediante proxys, bloqueados automáticamente",
-	"proxyblock-logentry-blocked": "la acción \"$2\" del usuario $3 en la página [[$1]] se bloqueó automáticamente."
+	"proxyblock-logentry-blocked": "la acción \"$2\" {{GENDER:$1|del usuario|de la usuaria}} $3 en la página [[$1]] se bloqueó automáticamente."
 }
