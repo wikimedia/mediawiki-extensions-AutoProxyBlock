@@ -1,7 +1,7 @@
 <?php
  
 class AutoProxyBlock {
-	function isProxy( $ip ) {
+	static function isProxy( $ip ) {
 		global $wgMemc, $wgAutoProxyBlockSources;
 		
 		$memcKey = wfMemcKey( 'isproxy', $ip );
@@ -19,7 +19,6 @@ class AutoProxyBlock {
 						'bklimit' => '1',
 						'bkprop' => 'expiry|reason',					
 					);
-	
 					$ban = self::requestForeighAPI($url, $request_options);
 					if( isset($ban['query']['blocks'][0]) && preg_match($wgAutoProxyBlockSources['key'], $ban['query']['blocks'][0]['reason']) ) {
 						$wgMemc->set( $memcKey, 'proxy', 60 * 60 * 24 );
@@ -52,7 +51,7 @@ class AutoProxyBlock {
 		}
 	}
  
-	function checkProxy( $title, $user, $action, &$result ) {
+	static function checkProxy( $title, $user, $action, &$result ) {
 		global $wgProxyCanPerform, $wgAutoProxyBlockLog, $wgRequest;
 		
 		if( in_array( $action, $wgProxyCanPerform ) || $user->isAllowed('proxyunbannable') ) {
