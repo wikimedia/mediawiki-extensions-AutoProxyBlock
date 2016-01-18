@@ -5,6 +5,7 @@
 			"Sp5uhe"
 		]
 	},
+	"proxy-blocked": "{{GENDER:|Twój}} adres IP } znajduje się na liście serwerów proxy, wykonywane działanie zostało przerwane.",
 	"right-proxyunbannable": "Obejście automatycznych blokad proxy",
 	"proxyblock-logentry-blocked": "działanie „$2” wykonane przez  {{GENDER:$3|użytkownika|użytkowniczkę}} $3 na stronie [[$1]] zostało automatycznie zablokowane."
 }
