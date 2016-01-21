@@ -8,7 +8,7 @@
 	"autoproxyblock-desc": "{{desc|name=AutoProxyBlock|url=https://www.mediawiki.org/wiki/Extension:AutoProxyBlock}}",
 	"proxy-blocked": "This message refers to the IP you are using listed as a proxy.",
 	"abusefilter-edit-builder-vars-is-proxy": "This message refers to true if this action was performed through a proxy",
-	"tag-proxy": "This message refers to action through proxy",
+	"tag-proxy": "This message refers to an action performed through proxy",
 	"right-proxyunbannable": "{{doc-right|proxyunbannable}}",
 	"right-notagproxychanges": "This message refers to protect from tagging edits through proxies as \"proxy\"\n\n{{doc-right|notagproxychanges}}",
 	"right-autoproxyblock-log": "This message refers to view log of automatically blocked changes through proxies\n\n{{doc-right|autoproxyblock-log}}",
