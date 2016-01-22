@@ -107,7 +107,7 @@ class AutoProxyBlock {
 		return true;
 	}
  
-	function addProxyTag( &$emptyTags ) {
+	static function addProxyTag( &$emptyTags ) {
 		global $wgTagProxyActions;
 		
 		if ( $wgTagProxyActions ) {
