@@ -10,7 +10,7 @@
 		]
 	},
 	"autoproxyblock-desc": "Permet de bloquer les actions effectuées au travers de proxy ouverts sur le wiki",
-	"proxy-blocked": "{{GENDER:|Votre}} adresse IP est répertoriée en tant que proxy, a effectué l'action annulée.",
+	"proxy-blocked": "{{GENDER:|Votre}} adresse IP est répertoriée en tant que proxy, l'action effectuée a été annulée.",
 	"abusefilter-edit-builder-vars-is-proxy": "Vrai si cette action a été réalisée par le biais d'un proxy",
 	"tag-proxy": "l'action par l'intermédiaire de proxy",
 	"right-proxyunbannable": "Ne pas être affecté par les blocages automatiques de serveurs mandataires",
