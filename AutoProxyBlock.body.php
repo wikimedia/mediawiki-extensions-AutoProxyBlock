@@ -19,7 +19,7 @@ class AutoProxyBlock {
 						'bklimit' => '1',
 						'bkprop' => 'expiry|reason',					
 					);
-					$ban = self::requestForeighAPI($url, $request_options);
+					$ban = self::requestForeignAPI($url, $request_options);
 					if( isset($ban['query']['blocks'][0]) && preg_match($wgAutoProxyBlockSources['key'], $ban['query']['blocks'][0]['reason']) ) {
 						$wgMemc->set( $memcKey, 'proxy', 60 * 60 * 24 );
 						return true;
@@ -116,7 +116,7 @@ class AutoProxyBlock {
 		return true;
 	}
  
-	function requestForeighAPI( $url, $options ) {
+	static function requestForeignAPI( $url, $options ) {
 		$url .= '?format=php';
 		foreach($options as $param => $value) {
 			$url .= '&'.$param.'='.$value;
