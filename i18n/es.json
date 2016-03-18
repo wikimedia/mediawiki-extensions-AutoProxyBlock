@@ -5,10 +5,12 @@
 			"Kroji"
 		]
 	},
+	"autoproxyblock-desc": "Permite bloquear las acciones realizadas a través de proxies abiertos en el wiki",
 	"proxy-blocked": "{{GENDER:|Tu}} dirección IP está listada como proxy. Se cancela la acción realizada.",
 	"abusefilter-edit-builder-vars-is-proxy": "Verdadero si esta acción se realizó mediante un proxy",
 	"tag-proxy": "acción mediante un proxy",
-	"right-proxyunbannable": "Quedar exento de bloqueos automáticos a proxies",
+	"right-proxyunbannable": "Eludir bloqueos automáticos de proxies",
+	"right-notagproxychanges": "proteger del etiquetado de ediciones a través de proxies como \"proxy\"",
 	"right-autoproxyblock-log": "ver el registro de cambios mediante proxys, bloqueados automáticamente",
 	"proxyblock-log-name": "Registro de bloqueo automático de proxys",
 	"proxyblock-log-header": "Lista de cambios mediante proxys, bloqueados automáticamente",
