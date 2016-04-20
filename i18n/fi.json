@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Nike"
+		]
+	},
+	"autoproxyblock-desc": "Tarjoaa mahdollisuuden estää avoimia välityspalvelimia suorittamasta toimintoja wikissä",
+	"proxy-blocked": "IP-osoitteesi on merkitty välityspalvelimeksi, suoritettu toiminto on peruttu.",
+	"abusefilter-edit-builder-vars-is-proxy": "Tosi, jos tämä toiminto suoritettiin välityspalvelimen kautta",
+	"tag-proxy": "toiminto välityspalvelimen kautta",
+	"right-proxyunbannable": "Ohittaa automaattiset välityspalvelinestot",
+	"right-notagproxychanges": "suojata muokkausten merkitsemiseltä välityspalvelimen tekemäksi",
+	"right-autoproxyblock-log": "katsoa lokia välityspalvelinten kautta tehdyistä automaattisesti estetyistä muutoksista",
+	"proxyblock-log-name": "AutoProxyBlockin loki",
+	"proxyblock-log-header": "Luettelo välityspalvelinten kautta tehdyistä automaattisesti estetyistä muutoksista",
+	"proxyblock-logentry-blocked": "{{GENDER:$3|käyttäjän}} $3 suorittama toiminto \"$2\" sivulla [[$1]] estettiin automaattisesti."
+}

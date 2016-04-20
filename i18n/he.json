@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"autoproxyblock-desc": "חסימת שרתי פרוקסי פתוחים מביצוע פעולות באתר הוויקי",
+	"right-proxyunbannable": "עקיפת חסימות אוטומטיות של שרתי פרוקסי"
+}
