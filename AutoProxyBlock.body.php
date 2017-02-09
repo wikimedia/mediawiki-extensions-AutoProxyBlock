@@ -93,16 +93,11 @@ class AutoProxyBlock {
 		return true;
 	}
  
-	function tagProxyChange( $recentChange ) {
+	static function onRecentChangeSave( RecentChange $rc ) {
 		global $wgTagProxyActions, $wgUser, $wgRequest;
 		
 		if ( $wgTagProxyActions && self::isProxy( $wgRequest->getIP() ) && !$wgUser->isAllowed( 'notagproxychanges' ) ) {
-			ChangeTags::addTags( 
-				'proxy',
-				$recentChange->mAttribs['rc_id'],
-				$recentChange->mAttribs['rc_this_oldid'],
-				$recentChange->mAttribs['rc_logid'] 
-			);
+			$rc->addTags( 'proxy' );
 		}
 		return true;
 	}

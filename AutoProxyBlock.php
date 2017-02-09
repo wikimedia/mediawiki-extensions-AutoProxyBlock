@@ -25,7 +25,7 @@ $wgAvailableRights[] = 'notagproxychanges';
 
 // set hooks
 $wgHooks['getUserPermissionsErrorsExpensive'][] = 'AutoProxyBlock::checkProxy';
-$wgHooks['RecentChange_save'][] = 'AutoProxyBlock::tagProxyChange';
+$wgHooks['RecentChange_save'][] = 'AutoProxyBlock::onRecentChangeSave';
 $wgHooks['ListDefinedTags'][] = 'AutoProxyBlock::addProxyTag';
 $wgHooks['ChangeTagsListActive'][] = 'AutoProxyBlock::addProxyTag';
 $wgHooks['AbuseFilter-filterAction'][] = 'AutoProxyBlock::AFSetVar';
