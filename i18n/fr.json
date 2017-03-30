@@ -6,7 +6,8 @@
 			"Orlodrim",
 			"Wladek92",
 			"Gomoko",
-			"IAlex"
+			"IAlex",
+			"Urhixidur"
 		]
 	},
 	"autoproxyblock-desc": "Permet de bloquer les actions effectuées au travers de proxy ouverts sur le wiki",
@@ -14,7 +15,7 @@
 	"abusefilter-edit-builder-vars-is-proxy": "Vrai si cette action a été réalisée par le biais d'un proxy",
 	"tag-proxy": "l'action par l'intermédiaire de proxy",
 	"right-proxyunbannable": "Ne pas être affecté par les blocages automatiques de serveurs mandataires",
-	"right-notagproxychanges": "empêcher de mettre l'étiquette \"proxy\" sur des  modifications faites via les proxy",
+	"right-notagproxychanges": "empêcher de mettre l’étiquette \"proxy\" sur des modifications faites via les mandataires",
 	"right-autoproxyblock-log": "voir les journaux des blocages automatiques des modifications par les proxys",
 	"proxyblock-log-name": "De proxy automatique bloc journal",
 	"proxyblock-log-header": "liste des modifications par proxy bloquées automatiquement",
