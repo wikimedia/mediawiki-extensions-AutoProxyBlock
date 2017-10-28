@@ -14,7 +14,6 @@ $wgExtensionCredits['antispam'][] = array(
 );
 
 $wgMessagesDirs['AutoProxyBlock'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['AutoProxyBlock'] =  "$dir/AutoProxyBlock.i18n.php";
 $wgAutoloadClasses['AutoProxyBlock'] = "$dir/AutoProxyBlock.body.php";
 
 // re-add proxyunbannable to sysops (removed from core)
