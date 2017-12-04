@@ -8,6 +8,7 @@
 	"proxy-blocked": "您的 IP 位址被列入代理伺服器清單，執行操作失敗。",
 	"abusefilter-edit-builder-vars-is-proxy": "此操作是透過代理伺服器執行則為真",
 	"tag-proxy": "透過代理伺服器操作",
+	"right-proxyunbannable": "略過 Proxy 自動封鎖檢查",
 	"right-notagproxychanges": "保護已設標籤為 \"proxy\" 的變更透過代理伺服器編輯",
 	"right-autoproxyblock-log": "檢視透過代理伺服器變更已被自動封鎖的日誌",
 	"proxyblock-log-name": "自動封鎖代理伺服器日誌",
