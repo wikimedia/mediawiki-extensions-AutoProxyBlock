@@ -3,14 +3,15 @@
 		"authors": [
 			"Sjoerddebruin",
 			"Siebrand",
-			"Mainframe98"
+			"Mainframe98",
+			"Mar(c)"
 		]
 	},
 	"autoproxyblock-desc": "Staat het automatisch blokkeren van handelingen via open proxy's op deze wiki toe",
 	"abusefilter-edit-builder-vars-is-proxy": "True als de handeling is uitgevoerd via een proxy",
 	"tag-proxy": "handeling via proxy",
 	"right-proxyunbannable": "Uitgezonderd van automatische blokkades van proxy's",
-	"right-autoproxyblock-log": "een lijst van automatisch geblokeerde wijzigingen via proxy's bekijken",
+	"right-autoproxyblock-log": "een lijst van automatisch geblokkeerde wijzigingen via proxy's bekijken",
 	"proxyblock-log-name": "Logboek met automatische proxyblokkades",
 	"proxyblock-log-header": "Lijst van automatisch geblokkeerde wijzigingen via proxy's",
 	"proxyblock-logentry-blocked": "handeling \"$2\" door {{GENDER:$3|gebruiker}} $3 op pagina [[$1]] automatisch geblokkeerd."
