@@ -1,4 +1,17 @@
 {
-	"@metadata": [],
-	"right-proxyunbannable": "Contornar bloqueios automáticos de proxies"
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"autoproxyblock-desc": "Permite bloquear operações realizadas na wiki através de <i>proxies</i> abertos",
+	"proxy-blocked": "{{GENDER:|O seu}} endereço IP está na lista de <i>proxies</i>, a operação que realizou foi cancelada.",
+	"abusefilter-edit-builder-vars-is-proxy": "Verdadeiro, se esta operação foi realizada através de um <i>proxy</i>",
+	"tag-proxy": "operação através de um <i>proxy</i>",
+	"right-proxyunbannable": "Contornar bloqueios automáticos de proxies",
+	"right-notagproxychanges": "não ter as edições através de <i>proxies</i> etiquetadas como \"<i>proxy</i>\"",
+	"right-autoproxyblock-log": "ver o registo de mudanças através de <i>proxies</i>, bloqueadas automaticamente",
+	"proxyblock-log-name": "Registo de bloqueio automático de <i>proxies</i>",
+	"proxyblock-log-header": "Lista das mudanças através de <i>proxies</i>, bloqueadas automaticamente",
+	"proxyblock-logentry-blocked": "operação \"$2\" {{GENDER:$3|do utilizador|da utilizadora}} $3 na página [[$1]], bloqueada automaticamente."
 }
