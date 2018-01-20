@@ -19,16 +19,21 @@
 * along with this program; if not, write to the Free Software
 * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
-if ( function_exists( 'wfLoadExtension' ) ) {
-	wfLoadExtension( 'AutoProxyBlock' );
-	// Keep i18n globals so mergeMessageFileList.php doesn't break
-	$wgMessagesDirs['AutoProxyBlock'] = __DIR__ . '/i18n';
-	wfWarn(
-		'Deprecated PHP entry point used for the AutoProxyBlock extension. ' .
-		'Please use wfLoadExtension instead, ' .
-		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
-	);
-	return;
+require_once __DIR__ . '/../../../maintenance/commandLine.inc';
+
+if ( method_exists( 'User', 'newSystemUser' ) ) {
+	$user = User::newSystemUser( 'AutoProxyBlock', [ 'steal' => true ] );
 } else {
-	die( 'This version of the AutoProxyBlock extension requires MediaWiki 1.29+' );
+	$user = User::newFromName( 'AutoProxyBlock' );
+
+	if ( !$user->getId() ) {
+		$user->addToDatabase();
+		$user->saveSettings();
+		$ssu = new SiteStatsUpdate( 0, 0, 0, 0, 1 );
+		$ssu->doUpdate();
+	} else {
+		$user->setPassword( null );
+		$user->setEmail( null );
+		$user->saveSettings();
+	}
 }

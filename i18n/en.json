@@ -1,8 +1,12 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Cryptocoryne",
+			"MarcoAurelio"
+		]
 	},
 	"autoproxyblock-desc": "Allows to block open proxies from performing actions in wiki",
+	"action-autoproxyblock-log": "view the AutoProxyBlock log",
 	"proxy-blocked": "{{GENDER:|Your}} IP address is listed as proxy, performed action aborted.",
 	"abusefilter-edit-builder-vars-is-proxy": "True if this action was performed through a proxy",
 	"tag-proxy": "action through proxy",

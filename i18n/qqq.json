@@ -3,10 +3,13 @@
 		"authors": [
 			"Metalhead64",
 			"Umherirrender",
-			"Purodha"
+			"Purodha",
+			"Cryptocoryne",
+			"MarcoAurelio"
 		]
 	},
 	"autoproxyblock-desc": "{{desc|name=AutoProxyBlock|url=https://www.mediawiki.org/wiki/Extension:AutoProxyBlock}}",
+	"action-autoproxyblock-log": "{{doc-action|autoproxyblock-log}}",
 	"proxy-blocked": "This message refers to the IP address the user (\"you\") is using being listed as a proxy.",
 	"abusefilter-edit-builder-vars-is-proxy": "This message refers to true if this action was performed through a proxy",
 	"tag-proxy": "This message refers to an action performed through proxy",

@@ -1,4 +1,24 @@
 <?php
+/**
+* AutoProxyBlock. Allows to automatically block or tag edits performed
+* by proxies.
+*
+* Copyright (C) 2011 Cryptocoryne
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public License
+* as published by the Free Software Foundation; either version 2
+* of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program; if not, write to the Free Software
+* Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
 
 class AutoProxyBlock {
 	static function isProxy( $ip ) {
@@ -7,38 +27,38 @@ class AutoProxyBlock {
 		$memcKey = wfMemcKey( 'isproxy', $ip );
 		$data = $wgMemc->get( $memcKey );
 
-		if( $data != '' ) {
+		if ( $data != '' ) {
 			return ( $data === 'proxy' ) ? true : false;
 		} else {
-			if( isset($wgAutoProxyBlockSources['api']) ) {
-				foreach($wgAutoProxyBlockSources['api'] as $url) {
-					$request_options = array(
+			if ( isset( $wgAutoProxyBlockSources['api'] ) ) {
+				foreach ( $wgAutoProxyBlockSources['api'] as $url ) {
+					$request_options = [
 						'action' => 'query',
 						'list' => 'blocks',
 						'bkip' => $ip,
 						'bklimit' => '1',
 						'bkprop' => 'expiry|reason',
-					);
-					$ban = self::requestForeignAPI($url, $request_options);
-					if( isset($ban['query']['blocks'][0]) && preg_match($wgAutoProxyBlockSources['key'], $ban['query']['blocks'][0]['reason']) ) {
+					];
+					$ban = self::requestForeignAPI( $url, $request_options );
+					if ( isset( $ban['query']['blocks'][0] ) && preg_match( $wgAutoProxyBlockSources['key'], $ban['query']['blocks'][0]['reason'] ) ) {
 						$wgMemc->set( $memcKey, 'proxy', 60 * 60 * 24 );
 						return true;
 					}
 				}
 			}
 
-			if( isset($wgAutoProxyBlockSources['raw']) ) {
-				$list = array();
-				foreach($wgAutoProxyBlockSources['raw'] as $file) {
-					if( file_exists($file) ) {
-						$p = file($file);
-						if( $p ) {
-							array_merge($list, $p);
+			if ( isset( $wgAutoProxyBlockSources['raw'] ) ) {
+				$list = [];
+				foreach ( $wgAutoProxyBlockSources['raw'] as $file ) {
+					if ( file_exists( $file ) ) {
+						$p = file( $file );
+						if ( $p ) {
+							array_merge( $list, $p );
 						}
 					}
 				}
 
-				if ( in_array( $ip, array_unique($list) ) ) {
+				if ( in_array( $ip, array_unique( $list ) ) ) {
 					$wgMemc->set( $memcKey, 'proxy', 60 * 60 * 24 );
 					return true;
 				} else {
@@ -54,28 +74,28 @@ class AutoProxyBlock {
 	static function checkProxy( $title, $user, $action, &$result ) {
 		global $wgProxyCanPerform, $wgAutoProxyBlockLog, $wgRequest;
 
-		if( in_array( $action, $wgProxyCanPerform ) || $user->isAllowed('proxyunbannable') ) {
+		if ( in_array( $action, $wgProxyCanPerform ) || $user->isAllowed( 'proxyunbannable' ) ) {
 			return true;
 		}
 
 		$userIP = $wgRequest->getIP();
-		if( self::isProxy( $userIP ) ) {
-			if( $wgAutoProxyBlockLog ) {
+		if ( self::isProxy( $userIP ) ) {
+			if ( $wgAutoProxyBlockLog ) {
 				$log = new LogPage( 'proxyblock' );
-				$log->addEntry( 'blocked', $title, false, array( $action, $user->getName() ) );
+				$log->addEntry( 'blocked', $title, false, [ $action, $user->getName() ] );
 
 				// hack for 1.19-
 				$dbw = wfGetDB( DB_MASTER );
 				$blocker = User::newFromName( 'AutoProxyBlock' );
 				$dbw->update(
 					'logging',
-					array( 'log_user' => $blocker->getID(), 'log_user_text' => 'AutoProxyBlock' ),
-					array( 'log_type' => 'proxyblock', 'log_user_text' => $user->getName() ),
+					[ 'log_user' => $blocker->getID(), 'log_user_text' => 'AutoProxyBlock' ],
+					[ 'log_type' => 'proxyblock', 'log_user_text' => $user->getName() ],
 					__METHOD__,
-					array( 'ORDER BY' => 'log_timestamp DESC' )
+					[ 'ORDER BY' => 'log_timestamp DESC' ]
 				);
 			}
-			$result[] = array( 'proxy-blocked', $userIP );
+			$result[] = [ 'proxy-blocked', $userIP ];
 			return false;
 		}
 
