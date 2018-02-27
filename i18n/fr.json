@@ -11,6 +11,7 @@
 		]
 	},
 	"autoproxyblock-desc": "Permet de bloquer les actions effectuées au travers de mandataires ouverts sur le wiki",
+	"action-autoproxyblock-log": "afficher le journal AutoProxyBlock",
 	"proxy-blocked": "{{GENDER:|Votre}} adresse IP est répertoriée en tant que mandataire, l’action effectuée a été annulée.",
 	"abusefilter-edit-builder-vars-is-proxy": "Vrai si cette action a été réalisée par le biais d’un mandataire",
 	"tag-proxy": "l’action par l’intermédiaire d’un mandataire",
