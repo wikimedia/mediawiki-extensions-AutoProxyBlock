@@ -5,6 +5,7 @@
 		]
 	},
 	"autoproxyblock-desc": "Permite bloquear operações realizadas na wiki através de <i>proxies</i> abertos",
+	"action-autoproxyblock-log": "ver o registo de bloqueio automático de proxies",
 	"proxy-blocked": "{{GENDER:|O seu}} endereço IP está na lista de <i>proxies</i>, a operação que realizou foi cancelada.",
 	"abusefilter-edit-builder-vars-is-proxy": "Verdadeiro, se esta operação foi realizada através de um <i>proxy</i>",
 	"tag-proxy": "operação através de um <i>proxy</i>",
