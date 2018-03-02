@@ -40,7 +40,10 @@ class AutoProxyBlock {
 						'bkprop' => 'expiry|reason',
 					];
 					$ban = self::requestForeignAPI( $url, $request_options );
-					if ( isset( $ban['query']['blocks'][0] ) && preg_match( $wgAutoProxyBlockSources['key'], $ban['query']['blocks'][0]['reason'] ) ) {
+					if ( isset( $ban['query']['blocks'][0] ) &&
+						preg_match( $wgAutoProxyBlockSources['key'],
+							$ban['query']['blocks'][0]['reason'] )
+					) {
 						$wgMemc->set( $memcKey, 'proxy', 60 * 60 * 24 );
 						return true;
 					}
@@ -116,7 +119,9 @@ class AutoProxyBlock {
 	static function onRecentChangeSave( RecentChange $rc ) {
 		global $wgTagProxyActions, $wgUser, $wgRequest;
 
-		if ( $wgTagProxyActions && self::isProxy( $wgRequest->getIP() ) && !$wgUser->isAllowed( 'notagproxychanges' ) ) {
+		if ( $wgTagProxyActions && self::isProxy( $wgRequest->getIP() ) &&
+			!$wgUser->isAllowed( 'notagproxychanges' )
+		) {
 			$rc->addTags( 'proxy' );
 		}
 		return true;
