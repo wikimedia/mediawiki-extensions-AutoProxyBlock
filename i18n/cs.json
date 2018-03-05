@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Danny B."
+			"Danny B.",
+			"Ilimanaq29"
 		]
 	},
+	"action-autoproxyblock-log": "Zobrazit záznamy automatického zablokování proxy serverů.",
 	"right-proxyunbannable": "Obcházení automatického blokování proxy serverů"
 }
