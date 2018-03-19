@@ -3,10 +3,12 @@
 		"authors": [
 			"2nd-player",
 			"Otokoume",
-			"青子守歌"
+			"青子守歌",
+			"Yusuke1109"
 		]
 	},
 	"autoproxyblock-desc": "オープンプロキシによるWiki内での操作の実行をブロックできるようにする。",
+	"action-autoproxyblock-log": "自動プロキシブロック記録を表示する",
 	"proxy-blocked": "{{GENDER:|あなた}}の IP アドレスはプロキシとしてリストされているため、実行された操作は中止されました。",
 	"tag-proxy": "プロキシ経由の操作",
 	"right-proxyunbannable": "プロキシの自動ブロックを回避",

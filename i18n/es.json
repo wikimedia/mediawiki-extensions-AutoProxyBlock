@@ -3,12 +3,13 @@
 		"authors": [
 			"Macofe",
 			"Kroji",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Fitoschido"
 		]
 	},
 	"autoproxyblock-desc": "Permite bloquear las acciones realizadas a través de proxies abiertos en el wiki",
 	"action-autoproxyblock-log": "ver el registro de bloqueos automáticos de ediciones efectuadas a través de un proxy",
-	"proxy-blocked": "{{GENDER:|Tu}} dirección IP está listada como proxy. Se cancela la acción realizada.",
+	"proxy-blocked": "{{GENDER:|Tu}} dirección IP está catalogada como «proxy». Se cancela la acción realizada.",
 	"abusefilter-edit-builder-vars-is-proxy": "Verdadero si esta acción se realizó mediante un proxy",
 	"tag-proxy": "acción mediante un proxy",
 	"right-proxyunbannable": "Eludir bloqueos automáticos de proxies",

@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Fitoschido"
 		]
 	},
-	"proxy-blocked": "{{GENDER:|Su}} dirección IP está listada como proxy. Se cancela la acción realizada."
+	"proxy-blocked": "{{GENDER:|Su}} dirección IP está catalogada como «proxy». Se cancela la acción realizada."
 }
