@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yury Tarasievich"
+			"Yury Tarasievich",
+			"Artsiom91"
 		]
 	},
+	"tag-proxy": "здзейснена праз проксі",
 	"right-proxyunbannable": "Перамагаць аўтаматычныя забароны на проксі"
 }
