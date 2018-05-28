@@ -7,7 +7,7 @@
 		]
 	},
 	"autoproxyblock-desc": "Позволяет запрещать совершать действия в вики c открытых прокси",
-	"action-autoproxyblock-log": "посмотреть журнал AutoProxyBlock",
+	"action-autoproxyblock-log": "просмотр журнала AutoProxyBlock",
 	"proxy-blocked": "{{GENDER:|Ваш}} IP-адрес находится в списках прокси, действие отменено.",
 	"abusefilter-edit-builder-vars-is-proxy": "Истинно, если действие совершено через прокси",
 	"tag-proxy": "совершено через прокси",
