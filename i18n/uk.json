@@ -6,6 +6,7 @@
 		]
 	},
 	"autoproxyblock-desc": "Дозволяє блокувати відкритим проксі виконання дій у вікі",
+	"action-autoproxyblock-log": "перегляд журналу AutoProxyBlock",
 	"proxy-blocked": "{{GENDER:|Ваша}} IP-адреса знаходиться у списку проксі, виконувана дія перервана.",
 	"abusefilter-edit-builder-vars-is-proxy": "Справедливо, якщо дію виконано через проксі",
 	"tag-proxy": "дія через проксі",
