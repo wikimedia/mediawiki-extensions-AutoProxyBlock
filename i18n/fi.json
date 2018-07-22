@@ -6,6 +6,7 @@
 		]
 	},
 	"autoproxyblock-desc": "Tarjoaa mahdollisuuden estää avoimia välityspalvelimia suorittamasta toimintoja wikissä",
+	"action-autoproxyblock-log": "nähdä AutoProxyBlockin lokia",
 	"proxy-blocked": "IP-osoitteesi on merkitty välityspalvelimeksi, suoritettu toiminto on peruttu.",
 	"abusefilter-edit-builder-vars-is-proxy": "Tosi, jos tämä toiminto suoritettiin välityspalvelimen kautta",
 	"tag-proxy": "toiminto välityspalvelimen kautta",
