@@ -5,6 +5,7 @@
 		]
 	},
 	"autoproxyblock-desc": "Gjør det mulig å blokkere åpne proxyer fra å utføre handlinger på wikien",
+	"action-autoproxyblock-log": "vis loggen for AutoProxyBlock",
 	"proxy-blocked": "{{GENDER:|Din}} IP-adresse er listet som en proxy, handlingen ble avbrutt.",
 	"abusefilter-edit-builder-vars-is-proxy": "True om denne handlingen ble gjort via en proxy",
 	"tag-proxy": "handling via proxy",
