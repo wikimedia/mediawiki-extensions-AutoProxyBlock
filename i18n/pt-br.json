@@ -14,5 +14,5 @@
 	"right-autoproxyblock-log": "ver o registo de mudanças através de <i>proxies</i>, bloqueadas automaticamente",
 	"proxyblock-log-name": "Registo de bloqueio automático de <i>proxies</i>",
 	"proxyblock-log-header": "Lista das mudanças através de <i>proxies</i>, bloqueadas automaticamente",
-	"proxyblock-logentry-blocked": "operação \"$2\" {{GENDER:$3|do utilizador|da utilizadora}} $3 na página [[$1]], bloqueada automaticamente."
+	"proxyblock-logentry-blocked": "operação \"$2\" {{GENDER:$3|do usuário|da usuária}} $3 na página [[$1]], bloqueada automaticamente."
 }
