@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Elisardojm",
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"autoproxyblock-desc": "Permite bloquear proxies abertos para realizar accións na wiki",
+	"action-autoproxyblock-log": "ver o rexistro de bloqueo automático de proxies",
 	"proxy-blocked": "A {{GENDER:|súa}} dirección IP está listada coma un proxy, abortada a acción realizada.",
 	"abusefilter-edit-builder-vars-is-proxy": "Verdadeiro se esta acción realizouse mediante un proxy",
 	"tag-proxy": "acción mediante un proxy",
