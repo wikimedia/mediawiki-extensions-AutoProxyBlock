@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"01miki10",
-			"Nike"
+			"Nike",
+			"Valtlait"
 		]
 	},
 	"autoproxyblock-desc": "Tarjoaa mahdollisuuden estää avoimia välityspalvelimia suorittamasta toimintoja wikissä",
@@ -15,5 +16,5 @@
 	"right-autoproxyblock-log": "katsoa lokia välityspalvelinten kautta tehdyistä automaattisesti estetyistä muutoksista",
 	"proxyblock-log-name": "AutoProxyBlockin loki",
 	"proxyblock-log-header": "Luettelo välityspalvelinten kautta tehdyistä automaattisesti estetyistä muutoksista",
-	"proxyblock-logentry-blocked": "{{GENDER:$3|käyttäjän}} $3 suorittama toiminto \"$2\" sivulla [[$1]] estettiin automaattisesti."
+	"proxyblock-logentry-blocked": "{{GENDER:$3|käyttäjän}} $3 suorittama toiminto ”$2” sivulla [[$1]] estettiin automaattisesti."
 }
