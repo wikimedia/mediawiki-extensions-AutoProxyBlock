@@ -4,16 +4,17 @@
 			"2nd-player",
 			"Otokoume",
 			"青子守歌",
-			"Yusuke1109"
+			"Yusuke1109",
+			"Shirayuki"
 		]
 	},
 	"autoproxyblock-desc": "オープンプロキシによるWiki内での操作の実行をブロックできるようにする。",
-	"action-autoproxyblock-log": "自動プロキシブロック記録を表示する",
+	"action-autoproxyblock-log": "自動プロキシブロック記録の表示",
 	"proxy-blocked": "{{GENDER:|あなた}}の IP アドレスはプロキシとしてリストされているため、実行された操作は中止されました。",
 	"tag-proxy": "プロキシ経由の操作",
 	"right-proxyunbannable": "プロキシの自動ブロックを回避",
 	"right-notagproxychanges": "プロキシ経由での編集でも「proxy」タグを付与されない",
-	"right-autoproxyblock-log": "プロキシ経由の自動ブロックされた変更の記録を閲覧する",
+	"right-autoproxyblock-log": "プロキシ経由の自動ブロックされた変更の記録を閲覧",
 	"proxyblock-log-name": "自動プロキシブロック記録",
 	"proxyblock-log-header": "プロキシ経由の自動ブロックされた変更の一覧",
 	"proxyblock-logentry-blocked": "{{GENDER:$3|利用者}} $3 によるページ「[[$1]]」への操作「$2」は自動的にブロックされました。"
