@@ -7,12 +7,12 @@
 		]
 	},
 	"autoproxyblock-desc": "Tarjoaa mahdollisuuden estää avoimia välityspalvelimia suorittamasta toimintoja wikissä",
-	"action-autoproxyblock-log": "nähdä AutoProxyBlockin lokia",
 	"proxy-blocked": "IP-osoitteesi on merkitty välityspalvelimeksi, suoritettu toiminto on peruttu.",
 	"abusefilter-edit-builder-vars-is-proxy": "Tosi, jos tämä toiminto suoritettiin välityspalvelimen kautta",
 	"tag-proxy": "toiminto välityspalvelimen kautta",
 	"right-proxyunbannable": "Ohittaa automaattiset välityspalvelinestot",
 	"right-notagproxychanges": "suojata muokkausten merkitsemiseltä välityspalvelimen tekemäksi",
+	"action-autoproxyblock-log": "nähdä AutoProxyBlockin lokia",
 	"right-autoproxyblock-log": "katsoa lokia välityspalvelinten kautta tehdyistä automaattisesti estetyistä muutoksista",
 	"proxyblock-log-name": "AutoProxyBlockin loki",
 	"proxyblock-log-header": "Luettelo välityspalvelinten kautta tehdyistä automaattisesti estetyistä muutoksista",

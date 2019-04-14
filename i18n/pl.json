@@ -8,10 +8,10 @@
 		]
 	},
 	"autoproxyblock-desc": "Umożliwia blokowanie użytkownikom korzystającym z OpenProxy wykonywania operacji na wiki",
-	"action-autoproxyblock-log": "podglądu rejestru blokad nałożonych automatycznie w związku z używaniem OpenProxy",
 	"proxy-blocked": "{{GENDER:|Twój}} adres IP znajduje się na liście serwerów proxy, wykonywane działanie zostało przerwane.",
 	"tag-proxy": "akcja wykonana z OpenProxy",
 	"right-proxyunbannable": "Obejście automatycznych blokad proxy",
+	"action-autoproxyblock-log": "podglądu rejestru blokad nałożonych automatycznie w związku z używaniem OpenProxy",
 	"proxyblock-log-name": "Rejestr blokad automatycznych (OpenProxy)",
 	"proxyblock-log-header": "Lista operacji wykonywanych z OpenProxy, które zostały automatycznie zablokowane.",
 	"proxyblock-logentry-blocked": "działanie „$2” wykonane przez  {{GENDER:$3|użytkownika|użytkowniczkę}} $3 na stronie [[$1]] zostało automatycznie zablokowane."

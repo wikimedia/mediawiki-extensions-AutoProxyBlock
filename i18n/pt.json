@@ -5,12 +5,12 @@
 		]
 	},
 	"autoproxyblock-desc": "Permite bloquear operações realizadas na wiki através de proxies abertos",
-	"action-autoproxyblock-log": "ver o registo de bloqueio automático de proxies",
 	"proxy-blocked": "{{GENDER:|O seu}} endereço IP está na lista de proxies, a operação que realizou foi cancelada.",
 	"abusefilter-edit-builder-vars-is-proxy": "Verdadeiro, se esta operação foi realizada através de um proxy",
 	"tag-proxy": "operação através de um proxy",
 	"right-proxyunbannable": "Contornar bloqueios automáticos de proxies",
 	"right-notagproxychanges": "não ter as edições através de proxies etiquetadas como \"proxy\"",
+	"action-autoproxyblock-log": "ver o registo de bloqueio automático de proxies",
 	"right-autoproxyblock-log": "ver o registo de mudanças através de proxies, bloqueadas automaticamente",
 	"proxyblock-log-name": "Registo de bloqueio automático de proxies",
 	"proxyblock-log-header": "Lista das mudanças através de proxies, bloqueadas automaticamente",

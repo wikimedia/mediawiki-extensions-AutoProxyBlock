@@ -6,12 +6,12 @@
 		]
 	},
 	"autoproxyblock-desc": "Omogućuje zadavanje zabrane akcija otvorenih proxy-ja na ovom wikiju",
-	"action-autoproxyblock-log": "gledanje Zastupničkog autobloka",
 	"proxy-blocked": "{{GENDER:|Vaša}} IP adresa je navedena kao zastupnik. Stoga se izvršena radnja poništava.",
 	"abusefilter-edit-builder-vars-is-proxy": "Upravo ako se radnja odvija preko zastupnika",
 	"tag-proxy": "radnja preko zastupnika",
 	"right-proxyunbannable": "Zaobilaženje automatskih blokada proxy-ja",
 	"right-notagproxychanges": "zaštita od obilježavanja izmjena koje je izvršio zastupnik kao takav",
+	"action-autoproxyblock-log": "gledanje Zastupničkog autobloka",
 	"right-autoproxyblock-log": "pregled dnevnika automatski blokiranih izmjena preko zastupnika",
 	"proxyblock-log-name": "Dnevnik automatskog blokiranja zastupnika",
 	"proxyblock-log-header": "Popis automatski blokiranih promjena preko zastupnika"

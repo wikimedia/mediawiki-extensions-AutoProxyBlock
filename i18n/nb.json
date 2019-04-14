@@ -5,12 +5,12 @@
 		]
 	},
 	"autoproxyblock-desc": "Gjør det mulig å blokkere åpne proxyer fra å utføre handlinger på wikien",
-	"action-autoproxyblock-log": "vis loggen for AutoProxyBlock",
 	"proxy-blocked": "{{GENDER:|Din}} IP-adresse er listet som en proxy, handlingen ble avbrutt.",
 	"abusefilter-edit-builder-vars-is-proxy": "True om denne handlingen ble gjort via en proxy",
 	"tag-proxy": "handling via proxy",
 	"right-proxyunbannable": "Kan redigere fra blokkerte proxyer",
 	"right-notagproxychanges": "beskytt fra å tagge redigeringer via proxyer som «proxy»",
+	"action-autoproxyblock-log": "vis loggen for AutoProxyBlock",
 	"right-autoproxyblock-log": "vis logg over automatisk blokkerte endringer via proxyer",
 	"proxyblock-log-name": "AutoProxyBlock-logg",
 	"proxyblock-log-header": "Liste over automatisk blokkerte endringer via proxyer",

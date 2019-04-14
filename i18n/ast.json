@@ -6,12 +6,12 @@
 		]
 	},
 	"autoproxyblock-desc": "Permite bloquiar a los proxies abiertos de facer aiciones na wiki",
-	"action-autoproxyblock-log": "ver el rexistru de Bloqueos automáticos de proxy",
 	"proxy-blocked": "La {{GENDER:|to}} dirección IP ta na llista de proxy, atáyase l'aición fecha.",
 	"abusefilter-edit-builder-vars-is-proxy": "Verdaderu si esta aición fízose por aciu d'un proxy",
 	"tag-proxy": "aición por aciu d'un proxy",
 	"right-proxyunbannable": "Saltar los bloqueos automáticos de los proxys",
 	"right-notagproxychanges": "protexer d'etiquetar les ediciones por aciu de proxies como \"proxy\"",
+	"action-autoproxyblock-log": "ver el rexistru de Bloqueos automáticos de proxy",
 	"right-autoproxyblock-log": "ver el rexistru de cambeos por aciu de proxies bloquiaos automáticamente",
 	"proxyblock-log-name": "Rexistru de bloquéu automáticu de proxies",
 	"proxyblock-log-header": "Llista de cambeos por aciu de proxies, bloquiaos automáticamente",
