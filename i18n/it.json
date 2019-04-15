@@ -10,7 +10,7 @@
 	"abusefilter-edit-builder-vars-is-proxy": "Vero se questa azione è stata eseguita attraverso un proxy",
 	"tag-proxy": "azione tramite proxy",
 	"right-proxyunbannable": "Ignora i blocchi automatici dei proxy",
-	"right-notagproxychanges": "protegge dall'etichettare modifiche eseguite tramite proxy come \"proxy\"",
+	"right-notagproxychanges": "Protegge dall'etichettare modifiche eseguite tramite proxy come \"proxy\"",
 	"action-autoproxyblock-log": "visualizzare il registro AutoProxyBlock",
 	"right-autoproxyblock-log": "Visualizza registro delle modifiche bloccate automaticamente eseguite attraverso proxy",
 	"proxyblock-log-name": "Blocchi automatici proxy",
