@@ -3,7 +3,8 @@
 		"authors": [
 			"01miki10",
 			"Nike",
-			"Valtlait"
+			"Valtlait",
+			"Pyscowicz"
 		]
 	},
 	"autoproxyblock-desc": "Tarjoaa mahdollisuuden estää avoimia välityspalvelimia suorittamasta toimintoja wikissä",
@@ -11,7 +12,7 @@
 	"abusefilter-edit-builder-vars-is-proxy": "Tosi, jos tämä toiminto suoritettiin välityspalvelimen kautta",
 	"tag-proxy": "toiminto välityspalvelimen kautta",
 	"right-proxyunbannable": "Ohittaa automaattiset välityspalvelinestot",
-	"right-notagproxychanges": "suojata muokkausten merkitsemiseltä välityspalvelimen tekemäksi",
+	"right-notagproxychanges": "Suojata muokkausten merkitsemiseltä välityspalvelimen tekemäksi",
 	"action-autoproxyblock-log": "nähdä AutoProxyBlockin lokia",
 	"right-autoproxyblock-log": "katsoa lokia välityspalvelinten kautta tehdyistä automaattisesti estetyistä muutoksista",
 	"proxyblock-log-name": "AutoProxyBlockin loki",

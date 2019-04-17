@@ -18,7 +18,7 @@
 	"action-proxyunbannable": "contourner les blocages automatiques de serveurs mandataires",
 	"right-proxyunbannable": "Ne pas être affecté par les blocages automatiques de serveurs mandataires",
 	"action-notagproxychanges": "empêcher de mettre l’étiquette « mandataire » sur des modifications faites via un serveur mandataire",
-	"right-notagproxychanges": "Empêcher de mettre l’étiquette «&thinsp;mandataire&thinsp;» sur des modifications faites via les mandataires",
+	"right-notagproxychanges": "Empêcher de mettre l’étiquette « mandataire » sur des modifications faites via les serveurs mandataires",
 	"action-autoproxyblock-log": "afficher le journal AutoProxyBlock",
 	"right-autoproxyblock-log": "Voir les journaux des blocages automatiques des modifications par les mandataires",
 	"proxyblock-log-name": "Journal de blocage automatique des mandataires",
