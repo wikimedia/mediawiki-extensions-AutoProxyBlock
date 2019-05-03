@@ -9,8 +9,8 @@
 	"abusefilter-edit-builder-vars-is-proxy": "Ver si iste action esseva exequite per un proxy",
 	"tag-proxy": "action per proxy",
 	"right-proxyunbannable": "Contornar le blocadas automatic de proxy",
-	"right-notagproxychanges": "impedir de mitter le etiquetta \"proxy\" sur modificationes per proxy",
-	"right-autoproxyblock-log": "vider un registro de modificationes exequite per proxy e automaticamente blocate",
+	"right-notagproxychanges": "Impedir de mitter le etiquetta \"proxy\" sur modificationes per proxy",
+	"right-autoproxyblock-log": "Vider un registro de modificationes exequite per proxy e automaticamente blocate",
 	"proxyblock-log-name": "Registro de blocadas automatic de proxies",
 	"proxyblock-log-header": "Lista de modificationes exequite per proxy e automaticamente blocate",
 	"proxyblock-logentry-blocked": "action \"$2\" per le {{GENDER:$3|usator}} $3 sur le pagina [[$1]] automaticamente blocate."
