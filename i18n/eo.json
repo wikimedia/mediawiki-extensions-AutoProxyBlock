@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
-	"right-proxyunbannable": "Preterpasi aŭtomatajn forbarojn de prokuriloj"
+	"right-proxyunbannable": "Preterpasi aŭtomatajn forbarojn de prokuriloj",
+	"proxyblock-log-name": "protokolo de AutoProxyBlock"
 }
