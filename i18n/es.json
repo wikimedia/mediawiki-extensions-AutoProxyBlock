@@ -4,7 +4,8 @@
 			"Macofe",
 			"Kroji",
 			"MarcoAurelio",
-			"Fitoschido"
+			"Fitoschido",
+			"Agusbou2015"
 		]
 	},
 	"autoproxyblock-desc": "Permite bloquear las acciones realizadas a través de proxies abiertos en el wiki",
@@ -12,9 +13,9 @@
 	"abusefilter-edit-builder-vars-is-proxy": "Verdadero si esta acción se realizó mediante un proxy",
 	"tag-proxy": "acción mediante un proxy",
 	"right-proxyunbannable": "Eludir bloqueos automáticos de proxies",
-	"right-notagproxychanges": "proteger del etiquetado de ediciones a través de proxies como \"proxy\"",
+	"right-notagproxychanges": "Proteger del etiquetado de ediciones a través de proxies como \"proxy\"",
 	"action-autoproxyblock-log": "ver el registro de bloqueos automáticos de ediciones efectuadas a través de un proxy",
-	"right-autoproxyblock-log": "ver el registro de cambios mediante proxys, bloqueados automáticamente",
+	"right-autoproxyblock-log": "Ver el registro de cambios mediante proxys, bloqueados automáticamente",
 	"proxyblock-log-name": "Registro de bloqueo automático de proxys",
 	"proxyblock-log-header": "Lista de cambios mediante proxys, bloqueados automáticamente",
 	"proxyblock-logentry-blocked": "la acción \"$2\" {{GENDER:$1|del usuario|de la usuaria}} $3 en la página [[$1]] se bloqueó automáticamente."
