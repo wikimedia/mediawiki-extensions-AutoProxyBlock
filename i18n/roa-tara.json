@@ -4,5 +4,7 @@
 			"Joetaras"
 		]
 	},
+	"autoproxyblock-desc": "Permette de bloccà le proxy apirte da eseguì aziune sus a uicchi",
+	"proxy-blocked": "L'indirizze IP {{GENDER:|tune}} ste elengate cumme proxy, azione eseguite annullate.",
 	"right-proxyunbannable": "Zumbe automaticamende le condrolle d'u proxy"
 }
