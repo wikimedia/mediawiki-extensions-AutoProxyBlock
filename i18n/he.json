@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"Erelon"
+			"Erelon",
+			"Steeve815"
 		]
 	},
 	"autoproxyblock-desc": "מתן אפשרות לחסימת שרתי פרוקסי פתוחים מביצוע פעולות באתר הוויקי",
 	"proxy-blocked": "כתובת ה־IP שלך רשומה כפרוקסי, ולכן הפעולה בוטלה.",
 	"tag-proxy": "פעולה דרך פרוקסי",
+	"action-proxyunbannable": "עקיפת חסימות אוטומטיות של שרתי פרוקסי",
 	"right-proxyunbannable": "עקיפת חסימות אוטומטיות של שרתי פרוקסי",
 	"right-notagproxychanges": "חסינות מתיוגים של עריכות שנעשו משרתי פרוקסי",
 	"right-autoproxyblock-log": "הצגת יומן של שינויים מכתובות פרוקסי שנחסמו באופן אוטומטי",
