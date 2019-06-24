@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lejonel"
+			"Lejonel",
+			"Mjälten"
 		]
 	},
+	"tag-proxy": "agera genom proxy",
 	"right-proxyunbannable": "Kan redigera från blockerade proxyer"
 }

@@ -11,6 +11,7 @@
 	"autoproxyblock-desc": "オープンプロキシによるWiki内での操作の実行をブロックできるようにする。",
 	"proxy-blocked": "{{GENDER:|あなた}}の IP アドレスはプロキシとしてリストされているため、実行された操作は中止されました。",
 	"tag-proxy": "プロキシ経由の操作",
+	"action-proxyunbannable": "プロキシの自動ブロックの回避",
 	"right-proxyunbannable": "プロキシの自動ブロックを回避",
 	"right-notagproxychanges": "プロキシ経由での編集でも「proxy」タグを付与されない",
 	"action-autoproxyblock-log": "自動プロキシブロック記録の表示",

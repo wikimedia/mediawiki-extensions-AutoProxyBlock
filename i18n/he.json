@@ -12,6 +12,7 @@
 	"tag-proxy": "פעולה דרך פרוקסי",
 	"action-proxyunbannable": "עקיפת חסימות אוטומטיות של שרתי פרוקסי",
 	"right-proxyunbannable": "עקיפת חסימות אוטומטיות של שרתי פרוקסי",
+	"action-notagproxychanges": "חסינות מתיוג עריכות בתגית \"פרוקסי\" כשהן נעשות משרתי פרוקסי",
 	"right-notagproxychanges": "חסינות מתיוגים של עריכות שנעשו משרתי פרוקסי",
 	"action-autoproxyblock-log": "צפיה ביומן חסימות פרוקסי אוטומטיות",
 	"right-autoproxyblock-log": "הצגת יומן של שינויים מכתובות פרוקסי שנחסמו באופן אוטומטי",
