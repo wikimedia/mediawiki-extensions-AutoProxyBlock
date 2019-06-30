@@ -13,6 +13,7 @@
 	"tag-proxy": "プロキシ経由の操作",
 	"action-proxyunbannable": "プロキシの自動ブロックの回避",
 	"right-proxyunbannable": "プロキシの自動ブロックを回避",
+	"action-notagproxychanges": "プロキシ経由での編集でも「proxy」タグを付与されない",
 	"right-notagproxychanges": "プロキシ経由での編集でも「proxy」タグを付与されない",
 	"action-autoproxyblock-log": "自動プロキシブロック記録の表示",
 	"right-autoproxyblock-log": "プロキシ経由の自動ブロックされた変更の記録を閲覧",
