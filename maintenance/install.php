@@ -29,7 +29,7 @@ if ( method_exists( 'User', 'newSystemUser' ) ) {
 	if ( !$user->getId() ) {
 		$user->addToDatabase();
 		$user->saveSettings();
-		$ssu = new SiteStatsUpdate( 0, 0, 0, 0, 1 );
+		$ssu = SiteStatsUpdate::factory( [ 'users' => 1 ] );
 		$ssu->doUpdate();
 	} else {
 		$user->setPassword( null );
