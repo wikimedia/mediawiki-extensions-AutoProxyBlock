@@ -8,7 +8,8 @@
 			"Gomoko",
 			"IAlex",
 			"Urhixidur",
-			"Pols12"
+			"Pols12",
+			"Thibaut120094"
 		]
 	},
 	"autoproxyblock-desc": "Permet de bloquer les actions effectuées au travers de mandataires ouverts sur le wiki",
@@ -23,5 +24,5 @@
 	"right-autoproxyblock-log": "Voir les journaux des blocages automatiques des modifications par les mandataires",
 	"proxyblock-log-name": "Journal de blocage automatique des mandataires",
 	"proxyblock-log-header": "Liste des modifications par mandataire bloquées automatiquement",
-	"proxyblock-logentry-blocked": "action « $2 » par l’{{GENDER:$3|utilisateur|utilisatrice}} $3 sur la page [[$1]] bloquée automatiquement."
+	"proxyblock-logentry-blocked": "action « $2 » par l’{{GENDER:$3|utilisateur|utilisatrice}} $3 sur la page [[$1]] bloquée automatiquement."
 }
