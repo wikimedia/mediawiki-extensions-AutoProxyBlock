@@ -1,8 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseph"
+			"Joseph",
+			"BaRaN6161 TURK"
 		]
 	},
-	"right-proxyunbannable": "Proxylerin otomatik engellemelerini atla"
+	"autoproxyblock-desc": "Açık proxy sunucularının wikide eylem gerçekleştirmesini engellemenizi sağlar",
+	"proxy-blocked": "{{GENDER:|Sizin}} IP adresiniz vekil olarak listeleniyor, işlem iptal edildi.",
+	"abusefilter-edit-builder-vars-is-proxy": "Bu işlem bir proxy üzerinden gerçekleştirildiyse doğru",
+	"tag-proxy": "proxy üzerinden işlem",
+	"action-proxyunbannable": "otomatik proxy bloklarını atla",
+	"right-proxyunbannable": "Proxylerin otomatik engellemelerini atla",
+	"action-notagproxychanges": "proxy'leri \"proxy\" olarak etiketleme düzenlemelerini engelle",
+	"right-notagproxychanges": "Proxy'leri \"proxy\" olarak etiketleme düzenlemelerini engelle",
+	"action-autoproxyblock-log": "AutoProxyBlock günlüğünü görüntüle",
+	"right-autoproxyblock-log": "Proxy'ler aracılığıyla otomatik olarak engellenen değişikliklerin günlüğünü görüntüleyin",
+	"proxyblock-log-name": "AutoProxyBlock günlüğü",
+	"proxyblock-log-header": "Proxy'ler aracılığıyla otomatik olarak engellenen değişikliklerin listesi",
+	"proxyblock-logentry-blocked": "{{GENDER:$3|Kullanıcı}} adlı sayfadaki \"$2\" eylemi [[$1]] tarafından otomatik olarak engellendi."
 }
