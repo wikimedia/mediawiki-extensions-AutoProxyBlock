@@ -117,10 +117,10 @@ class AutoProxyBlock {
 	}
 
 	static function onRecentChangeSave( RecentChange $rc ) {
-		global $wgTagProxyActions, $wgUser, $wgRequest;
+		global $wgTagProxyActions, $wgRequest;
 
 		if ( $wgTagProxyActions && self::isProxy( $wgRequest->getIP() ) &&
-			!$wgUser->isAllowed( 'notagproxychanges' )
+			!$rc->getPerformer()->isAllowed( 'notagproxychanges' )
 		) {
 			$rc->addTags( 'proxy' );
 		}
