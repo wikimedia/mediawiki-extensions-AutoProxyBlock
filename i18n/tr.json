@@ -5,12 +5,12 @@
 			"BaRaN6161 TURK"
 		]
 	},
-	"autoproxyblock-desc": "Açık proxy sunucularının wikide eylem gerçekleştirmesini engellemenizi sağlar",
-	"proxy-blocked": "{{GENDER:|Sizin}} IP adresiniz vekil olarak listeleniyor, işlem iptal edildi.",
+	"autoproxyblock-desc": "Açık proxy sunucularının vikide eylem gerçekleştirmesini engellemenizi sağlar",
+	"proxy-blocked": "{{GENDER:|Sizin}} IP adresiniz proxy olarak listeleniyor, işlem iptal edildi.",
 	"abusefilter-edit-builder-vars-is-proxy": "Bu işlem bir proxy üzerinden gerçekleştirildiyse doğru",
-	"tag-proxy": "proxy üzerinden işlem",
-	"action-proxyunbannable": "otomatik proxy bloklarını atla",
-	"right-proxyunbannable": "Proxylerin otomatik engellemelerini atla",
+	"tag-proxy": "proxy üzerinden eylem",
+	"action-proxyunbannable": "otomatik proxy engellerini atla",
+	"right-proxyunbannable": "Otomatik proxy engellerini atla",
 	"action-notagproxychanges": "proxy'leri \"proxy\" olarak etiketleme düzenlemelerini engelle",
 	"right-notagproxychanges": "Proxy'leri \"proxy\" olarak etiketleme düzenlemelerini engelle",
 	"action-autoproxyblock-log": "AutoProxyBlock günlüğünü görüntüle",
