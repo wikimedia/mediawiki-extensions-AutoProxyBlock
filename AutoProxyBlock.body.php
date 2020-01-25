@@ -85,7 +85,13 @@ class AutoProxyBlock {
 		if ( self::isProxy( $userIP ) ) {
 			if ( $wgAutoProxyBlockLog ) {
 				$log = new LogPage( 'proxyblock' );
-				$log->addEntry( 'blocked', $title, false, [ $action, $user->getName() ] );
+				$log->addEntry(
+					'blocked',
+					$title,
+					false,
+					[ $action, $user->getName() ],
+					$user
+				);
 
 				// hack for 1.19-
 				$dbw = wfGetDB( DB_MASTER );
