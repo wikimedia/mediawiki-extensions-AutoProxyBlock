@@ -19,59 +19,60 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
+use MediaWiki\MediaWikiServices;
 
 class AutoProxyBlock {
 	static function isProxy( $ip ) {
-		global $wgMemc, $wgAutoProxyBlockSources;
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
-		$memcKey = wfMemcKey( 'isproxy', $ip );
-		$data = $wgMemc->get( $memcKey );
+		$data = $cache->getWithSetCallback(
+			$cache->makeKey( 'autoproxyblock-status', $ip ),
+			$cache::TTL_DAY,
+			function () use ( $ip ) {
+				global $wgAutoProxyBlockSources;
 
-		if ( $data != '' ) {
-			return ( $data === 'proxy' ) ? true : false;
-		} else {
-			if ( isset( $wgAutoProxyBlockSources['api'] ) ) {
-				foreach ( $wgAutoProxyBlockSources['api'] as $url ) {
-					$request_options = [
-						'action' => 'query',
-						'list' => 'blocks',
-						'bkip' => $ip,
-						'bklimit' => '1',
-						'bkprop' => 'expiry|reason',
-					];
-					$ban = self::requestForeignAPI( $url, $request_options );
-					if ( isset( $ban['query']['blocks'][0] ) &&
-						preg_match( $wgAutoProxyBlockSources['key'],
-							$ban['query']['blocks'][0]['reason'] )
-					) {
-						$wgMemc->set( $memcKey, 'proxy', 60 * 60 * 24 );
-						return true;
-					}
-				}
-			}
-
-			if ( isset( $wgAutoProxyBlockSources['raw'] ) ) {
-				$list = [];
-				foreach ( $wgAutoProxyBlockSources['raw'] as $file ) {
-					if ( file_exists( $file ) ) {
-						$p = file( $file );
-						if ( $p ) {
-							array_merge( $list, $p );
+				if ( isset( $wgAutoProxyBlockSources['api'] ) ) {
+					foreach ( $wgAutoProxyBlockSources['api'] as $url ) {
+						$request_options = [
+							'action' => 'query',
+							'list' => 'blocks',
+							'bkip' => $ip,
+							'bklimit' => '1',
+							'bkprop' => 'expiry|reason',
+						];
+						$ban = self::requestForeignAPI( $url, $request_options );
+						if (
+							isset( $ban['query']['blocks'][0] ) &&
+							preg_match(
+								$wgAutoProxyBlockSources['key'],
+								$ban['query']['blocks'][0]['reason']
+							)
+						) {
+							return 'proxy';
 						}
 					}
 				}
 
-				if ( in_array( $ip, array_unique( $list ) ) ) {
-					$wgMemc->set( $memcKey, 'proxy', 60 * 60 * 24 );
-					return true;
-				} else {
-					$wgMemc->set( $memcKey, 'not', 60 * 60 * 24 );
-					return false;
-				}
-			}
+				if ( isset( $wgAutoProxyBlockSources['raw'] ) ) {
+					$list = [];
+					foreach ( $wgAutoProxyBlockSources['raw'] as $file ) {
+						if ( file_exists( $file ) ) {
+							$p = file( $file );
+							if ( $p ) {
+								array_merge( $list, $p );
+							}
+						}
+					}
 
-			return false;
-		}
+					return in_array( $ip, array_unique( $list ) ) ? 'proxy' : 'not';
+				}
+
+				// uncached
+				return false;
+			}
+		);
+
+		return ( $data === 'proxy' ) ? true : false;
 	}
 
 	static function checkProxy( $title, $user, $action, &$result ) {
