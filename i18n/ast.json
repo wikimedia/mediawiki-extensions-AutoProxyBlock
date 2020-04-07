@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu",
-			"Esbardu"
+			"Esbardu",
+			"Xuacu"
 		]
 	},
 	"autoproxyblock-desc": "Permite bloquiar a los proxies abiertos de facer aiciones na wiki",

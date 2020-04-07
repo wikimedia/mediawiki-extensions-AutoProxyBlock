@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin",
-			"Siebrand",
 			"Mainframe98",
-			"Mar(c)"
+			"Mar(c)",
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"autoproxyblock-desc": "Staat het automatisch blokkeren van handelingen via open proxy's op deze wiki toe",

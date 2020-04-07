@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
-			"Laundry Machine",
-			"Kly"
+			"Kly",
+			"Laundry Machine"
 		]
 	},
 	"autoproxyblock-desc": "允許封鎖開放代理伺服器在 wiki 執行操作。",

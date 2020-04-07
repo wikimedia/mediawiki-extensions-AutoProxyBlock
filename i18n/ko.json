@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kwj2772",
 			"Klutzy",
+			"Kwj2772",
+			"Nuevo Paso",
 			"Ykhwong",
-			"아라",
-			"Nuevo Paso"
+			"아라"
 		]
 	},
 	"autoproxyblock-desc": "위키에서 공개 프록시가 동작을 수행하지 못하도록 차단할 수 있게 합니다",

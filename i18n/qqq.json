@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64",
-			"Umherirrender",
-			"Purodha",
 			"Cryptocoryne",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Metalhead64",
+			"Purodha",
+			"Umherirrender"
 		]
 	},
 	"autoproxyblock-desc": "{{desc|name=AutoProxyBlock|url=https://www.mediawiki.org/wiki/Extension:AutoProxyBlock}}",

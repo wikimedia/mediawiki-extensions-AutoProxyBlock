@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Banjo",
 			"Elisardojm",
-			"Toliño",
-			"Banjo"
+			"Toliño"
 		]
 	},
 	"autoproxyblock-desc": "Permite bloquear proxies abertos para realizar accións na wiki",

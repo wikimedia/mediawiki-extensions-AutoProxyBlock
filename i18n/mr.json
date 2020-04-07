@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"V.narsikar",
 			"Kaustubh",
-			"Susheelkasab"
+			"Susheelkasab",
+			"V.narsikar"
 		]
 	},
 	"autoproxyblock-desc": "विकिवर कोणतीही क्रिया करण्यापासून खुल्या प्रतिनिधींना(प्रॉक्सी) प्रतिबंध करण्यास परवानगी देते.",

@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата",
 			"Piramidion",
-			"Vlad5250"
+			"Vlad5250",
+			"Ата"
 		]
 	},
 	"autoproxyblock-desc": "Дозволяє блокувати відкритим проксі виконання дій у вікі",
