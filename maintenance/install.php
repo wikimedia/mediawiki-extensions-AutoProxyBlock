@@ -21,19 +21,4 @@
  */
 require_once __DIR__ . '/../../../maintenance/commandLine.inc';
 
-if ( method_exists( 'User', 'newSystemUser' ) ) {
-	$user = User::newSystemUser( 'AutoProxyBlock', [ 'steal' => true ] );
-} else {
-	$user = User::newFromName( 'AutoProxyBlock' );
-
-	if ( !$user->getId() ) {
-		$user->addToDatabase();
-		$user->saveSettings();
-		$ssu = SiteStatsUpdate::factory( [ 'users' => 1 ] );
-		$ssu->doUpdate();
-	} else {
-		$user->setPassword( null );
-		$user->setEmail( null );
-		$user->saveSettings();
-	}
-}
+$user = User::newSystemUser( 'AutoProxyBlock', [ 'steal' => true ] );
