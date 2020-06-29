@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"2nd-player",
+			"Aefgh39622",
 			"Otokoume",
 			"Shirayuki",
 			"Yusuke1109",
@@ -10,6 +11,7 @@
 	},
 	"autoproxyblock-desc": "オープンプロキシによるWiki内での操作の実行をブロックできるようにする。",
 	"proxy-blocked": "{{GENDER:|あなた}}の IP アドレスはプロキシとしてリストされているため、実行された操作は中止されました。",
+	"abusefilter-edit-builder-vars-is-proxy": "この操作がプロキシを介して実行された場合は true です。",
 	"tag-proxy": "プロキシ経由の操作",
 	"action-proxyunbannable": "プロキシの自動ブロックの回避",
 	"right-proxyunbannable": "プロキシの自動ブロックを回避",
